@@ -1,4 +1,6 @@
 function changerMessage() {
-    document.getElementById("message").textContent =
-        "Bravo ! Vous avez réussi à modifier le message 🎉";
+    const message = document.getElementById("message");
+    message.textContent = "Bravo ! Vous avez réussi à modifier le message 🎉";
+    message.style.backgroundColor = "#ffd700"; // couleur jaune
 }
+
